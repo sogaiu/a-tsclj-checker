@@ -17,7 +17,6 @@ Additionally, this tool can handle recursively traversing directories to process
 ## Prerequisites
 
 * rust
-* npm
 
 ## Build
 
@@ -26,12 +25,6 @@ Clone the repository with its submodule:
 ```
 $ git clone https://github.com/sogaiu/a-tsclj-checker --recursive
 $ cd a-tsclj-checker
-```
-
-Build the `tree-sitter-clojure` source:
-
-```
-$ bash script/tree-sitter-clojure
 ```
 
 Build with the Rust build tool `cargo`:
